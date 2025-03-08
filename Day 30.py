@@ -13,7 +13,8 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n-1)+fibonacci(n-2)
-print(fibonacci(5))
-print(fibonacci(6))
-print(fibonacci(7))
+
+print(fibonacci(5))  # Will print 5
+print(fibonacci(6))  # Will print 8
+print(fibonacci(7))  # Will print 13
 
