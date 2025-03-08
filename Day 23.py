@@ -1,0 +1,13 @@
+l=["sandeep","swastik","anshul","pranshu","satpal","shubham"]
+l.append("sandeep")
+print(l)
+l.remove("sandeep")
+print(l)
+l.pop()
+print(l)
+l.reverse()
+print(l)
+l.sort()
+print(l)
+l.insert(2,"sandeep")
+print(l)
